@@ -16,6 +16,8 @@
 - Implement `Shortcut` class
   - We can have a `Shortcut` to a `File`, `Folder`, or another `Shortcut`
   - We can add `Shortcut` to a `Folder`
+  - Write a method `open` on `Shortcut`
+    - Calls `open` on the underlying `File`, `Folder`, or `Shortcut`
 - To do Test Driven Development (TDD) or not?
 - What test-cases?
 
